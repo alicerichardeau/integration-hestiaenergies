@@ -1,0 +1,45 @@
+.section-services {
+// BLOCK DE CARTES
+    .container-fluid {
+        background-color: $color-grey-light;
+    // CARTES
+        .service-card {
+            width: 300px;
+            background-color: white;
+            .card-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                ul {
+                    padding: 1rem;
+                    li, a {
+                        font-size: 0.7rem;
+                    }
+                    span {
+                        width: 3px;
+                        margin-right: 0.2rem;
+                    }
+                }
+            }
+         }
+    }
+// MEDIA QUERIES
+// ##############
+@media screen and (min-width: 900px) {
+
+    .service-card {
+        .photo {
+            height: 200px;
+        }
+        flex-direction: row!important;
+        width: 650px!important;
+        padding-bottom: 0!important;
+        .card-content {
+            width: 300px;
+        }
+    }
+
+}
+    
+}

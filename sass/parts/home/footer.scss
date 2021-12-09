@@ -1,0 +1,48 @@
+footer {
+    background: no-repeat url("img/background-waves-footer.svg");
+    background-size: cover;
+    padding: 3rem 0;
+    //CONTENU
+    .footer-content {
+        z-index: 0;
+        p {
+            margin: 0;
+        }
+        a {
+            font-size: 0.8rem;
+        }
+        p:first-child {
+            font-size: 1rem;
+        }
+    }
+    //DIV HAUT DE LA COURBE
+   .top-wave {
+       height: 64px;
+       background-color: white;   
+   }
+    //COURBE
+    .wave {
+        width: 100%;
+        
+        left: 0;
+        top: 0;
+        display: block;
+        z-index: -1;
+    }
+
+    @media screen and (min-width: 600px){
+        
+        .footer-content {
+            flex-direction: row!important;
+            div {
+                width: 30%!important;
+            }
+        }
+        .wave {
+            max-height: 353px;
+        }
+        height: 336px;
+        padding-bottom: 0;
+    }
+
+}

@@ -1,0 +1,24 @@
+//BOUTONS PRIMARY
+// ###############
+.button-outline-primary, .button-primary:hover {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    background-color: transparent;
+}
+.button-outline-primary:hover, .button-primary {
+    background-color: $color-primary;
+    color: white;
+    border: none;
+}
+
+//BOUTONS THIRD
+// #############
+.button-third {
+    background-color: $color-third;
+    color: white;
+}
+.button-third:hover {
+    border: 1px solid $color-third;
+    background-color: transparent;
+    color: $color-third;
+}

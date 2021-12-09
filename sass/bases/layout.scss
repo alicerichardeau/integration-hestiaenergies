@@ -1,0 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    li {
+        list-style-type: none;
+    }
+}
+.titles {
+    margin-top: 2rem;
+}
+.subtitles, .titles {
+    margin-bottom: 2rem;
+}

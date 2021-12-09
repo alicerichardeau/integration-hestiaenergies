@@ -1,0 +1,28 @@
+{
+  "name": "integration-hestia",
+  "version": "1.0.0",
+  "description": "Intégration html site hestia",
+  "main": "index.html",
+  "dependencies": {
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/style.scss:./style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicerichardeau/integration-hestia.git"
+  },
+  "keywords": [
+    "integration",
+    "hestia"
+  ],
+  "author": "Alice Richardeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicerichardeau/integration-hestia/issues"
+  },
+  "homepage": "https://github.com/alicerichardeau/integration-hestia#readme"
+}

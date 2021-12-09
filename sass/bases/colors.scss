@@ -1,0 +1,48 @@
+//COULEUR DU BODY
+body {
+    color: $color-black;
+}
+
+
+
+//COULEUR DES LIENS
+a {
+    text-decoration: none;
+    color: $color-black;
+}
+a:hover {
+    color: $color-black;
+}
+
+// ##########################
+//CLASSES DE COULEUR DE TEXTE
+// ##########################
+.primary-text-color {
+    color: $color-primary;
+}
+
+.secondary-text-color {
+    color: $color-secondary;
+}
+
+.fourth-text-color {
+    color: $color-fourth;
+}
+
+.third-text-color {
+    color: $color-third;
+}
+
+.black-text-color {
+    color: $color-black;
+}
+
+// ################################
+//CLASSES DE COULEUR DE BACKGROUND
+// ###############################
+
+.grey-light-background {
+    background-color: $color-grey-light;
+}
+
+
