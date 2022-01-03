@@ -42,7 +42,7 @@ header {
     
     nav {
         p {
-            padding-left: 50px;
+            padding: 0 40px;
             span {
                 font-size: 0.9rem;
             }
@@ -51,6 +51,10 @@ header {
             justify-content: flex-end;
             .menu-navbar-header-container {
                 width: 100%;
+            }
+            ul {
+                display: flex;
+                justify-content: space-around;
             }
         }
     }
