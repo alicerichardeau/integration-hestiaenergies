@@ -1,14 +1,21 @@
-.text-bold {
-    font-weight: bold;
-}
 
-.btn, p, a, li {
-    font-size: 0.8rem;
-    font-weight: 600;
+// TYPOS
+// #####
+p, a, li {
+    font-weight: 500;
 }
 h1, h2, h3, strong {
-    font-weight: 600;
+    font-weight: 500;
 }
+
+// CLASSE TEXT EN GRAS
+// ##################
+.text-bold{
+    font-weight: 650;
+}
+
+// CLASSES TAILLE TITRE ET SOUS TITRES
+// ###################################
 .titles {
     font-size: 2rem;
 }

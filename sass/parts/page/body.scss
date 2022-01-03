@@ -1,0 +1,151 @@
+
+ul {
+  span {
+    margin-right: 0.5rem;
+  }
+}
+
+// page depannage
+// ###############
+.intro-troubleshooting {
+    .container {
+        .slide-in {
+          @media screen and (min-width: 500px) {
+            font-size: 3rem;
+        }
+            animation-duration: 1s;
+            animation-name: slidein;
+            font-size: 2rem;
+          }     
+          @keyframes slidein {
+            from {
+              margin-left: 100%;
+              width: 300%;
+            }      
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+        img {
+          border-radius: 7px;
+          box-shadow: $box-shadow;
+          width: 300px;
+        }
+        // phone number
+        a {
+            font-size: 3rem;
+        }
+        a:hover {
+          transform: scale(1.1);
+          color: $color-secondary;
+        }
+    }
+}
+
+// page remplacement
+// ###################
+.equipment-content {
+  .img-plumber {
+    border-radius: 7px;
+    @media screen and (min-width: 500px) {
+      width: 400px;
+    }
+  }
+  .img-plumber:hover {
+    @media screen and (min-width: 700px) {
+      transform: scale(1.1);
+    }
+  }
+}
+
+// article aides energetiques
+// ##########################
+.intro-state-aids {
+    img {
+        width: 200px;
+    }   
+}
+.content-state-aids .container {
+  max-width: 980px;
+}
+
+// ##########################################
+// CLASSES ##################################
+// ############################################
+
+// image round
+.img-round {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  opacity: 0.8;
+}
+// CLASS ENTRETIEN SPAN
+// ####################
+.entretien-span {
+  position: absolute;
+  right: 0;   
+  left: 0;
+  margin: auto;
+  height:60px;
+  width:270px; 
+  font-size: 1.2rem!important;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: $box-shadow;
+  // border-radius: 25px;
+  z-index: 1;
+  margin-top: 2rem;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.entretien-span:hover {
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
+
+// CLASS POSITION RELATIVE 
+// ########################
+.postion-relative {
+  position: relative;
+}
+
+  // CLASS SLIDE IN
+  // ################
+    .slide-in {
+        animation-duration: 1s;
+        animation-name: slidein;
+        font-size: 1.2rem;
+        @media screen and (min-width: 400px) {
+          font-size: 1.5rem;
+        }
+        @media screen and (min-width: 700px) {
+          font-size: 2rem;
+        }
+      }     
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+// CLASS PAGE CONTENT
+// #######################
+.page-content {
+    .container {
+        ul {
+            li {
+                font-size: 0.8rem;
+                @media screen and (min-width: 370px) {
+                        font-size: 1rem;
+                }
+            }
+        }
+    }
+}

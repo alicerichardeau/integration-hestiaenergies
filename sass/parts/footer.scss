@@ -1,0 +1,61 @@
+footer {
+    background: no-repeat url("img/background-waves-footer.svg");
+    background-size: cover;
+    padding: 3rem 0;
+    
+    @media screen and (min-width: 600px) {
+        height: 336px;
+        padding-bottom: 0;
+    }
+
+    // content
+    .footer-content {
+        width: 80%;
+
+        @media screen and (min-width: 400px) {
+            margin-left: 20%;
+        }
+
+        @media screen and (min-width: 500px) {
+            margin-left: 30%;
+        }
+
+        @media screen and (min-width: 600px) {
+            margin-left: 0;
+            flex-direction: row !important;
+            justify-content: space-around !important;
+        }
+        address {
+            a:hover {
+                color: $color-secondary;
+            }
+        }
+        .menu-footer {
+            @media screen and (min-width: 600px) {
+                margin-top: 3rem;
+                margin-left: 4rem;
+            }
+
+            .menu {
+                padding: 0;
+                li {
+                    a {
+                        color: $color-secondary;
+                    }
+                }
+                #menu-item-199 {
+                    a {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+        z-index: 0;
+        p {
+            margin: 0;
+        }
+        p:first-child {
+            font-size: 1rem;
+        }
+    }
+}

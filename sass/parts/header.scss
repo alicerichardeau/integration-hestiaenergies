@@ -1,12 +1,17 @@
-header{
+header {
+
     position: sticky;
-    z-index: 1;
-    height: 80px;
+    z-index: 2;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     nav {
+        .navbar-toggler {
+            padding: 0;
+        }
+        padding-top: 0!important;
+        padding-bottom: 0!important;
         button:focus {
             box-shadow: none!important;
         }
@@ -15,21 +20,10 @@ header{
                 margin: 0 0.5rem;
             }
         }
-        .navbar-collapse {
-            ul {
-                li {
-                    padding-left: 1rem;
-                    .secondary-text-color {
-                        color: $color-secondary!important;
-                    }
-                    .primary-text-color {
-                        color: $color-primary!important;
-                    }
-                }
-            }
-        }
-    }
+          
+}
 
+// min 400px
 @media screen and (min-width: 400px){
 
     nav {
@@ -41,20 +35,23 @@ header{
             }
         }
     }
-
 }
 
+// min 990px
 @media screen and (min-width: 990px){
     
     nav {
         p {
-            padding-left: 100px;
+            padding-left: 50px;
             span {
                 font-size: 0.9rem;
             }
         }
         #navbarNav {
             justify-content: flex-end;
+            .menu-navbar-header-container {
+                width: 100%;
+            }
         }
     }
 }

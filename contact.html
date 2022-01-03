@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="bloc-page">
+        <!-- ########HEADER############### -->
+        <!-- ############################ -->
+        <header>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <a class="navbar-brand m-0 d-block" href="/">
+                        <img src="./img/hestia-logo.svg" alt="Logo">
+                    </a>
+                    <p class="text-bold mb-0 d-flex"><img src="./img/telephone-hestia.svg" width="15px" /><span><a
+                                class="text-bold" href="tel:+33477273237">04 77 27 32 37</a></span></p>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span><img src="./img/burger-menu.svg" alt=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page-entretien.html">Entretien</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link secondary-text-color" href="page-depannage.html">Dépannage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page-installation.html">Remplacement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="single.html">Actualités</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary-text-color" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </nav>
+        </header>
+
+        <!-- ######## SECTION CONTACT ############### -->
+        <!-- ######################################## -->
+        <section class="section-form d-flex flex-column justify-content-center align-items-center">
+            <div class="contact">
+                <div class="container text-center mt-5">
+                    <h2 class="fs-3">Une question, une demande de devis&nbsp;?</h2>
+                    <p>Remplissez le formulaire ci-dessous, nous vous recontacterons rapidement&nbsp;!</p>
+                </div>
+                <form class="container mt-3 p-4" method="post"
+                    action="https://test-site.go.yj.fr/merci-pour-votre-message">
+                    <div class="form-floating mb-3">
+                        <input type="text" name="your_name" class="form-control" required>
+                        <label for="your_name">Nom</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="your_firstname" class="form-control" required>
+                        <label for="your_firstname">Prénom</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" name="your_email" class="form-control" required
+                            pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+                        <label for="your_emai">Email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="tel" name="your_tel" class="form-control"
+                            pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" required>
+                        <label for="your_tel">Téléphone</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="your_address" class="form-control">
+                        <label for="your_address">Adresse</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="your_postal_code" class="form-control">
+                        <label for="your_postal_code">Code postal</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="your_city" class="form-control">
+                        <label for="your_city">Ville</label>
+                    </div>
+                    <div>
+                        <p class="fs-5 mt-4">Votre demande concerne&nbsp;:</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="ask_state-help" value="">
+                            <label class="form-check-label" for="ask_state-help">Les Aides de l'État</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="ask_contract" value="">
+                            <label class="form-check-label" for="ask_contract">Nos Contrats d'Entretien</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="ask_quote" type="checkbox" value="">
+                            <label class="form-check-label" for="ask_quote">Une Demande de Devis</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="ask_other" type="checkbox" value="">
+                            <label class="form-check-label mb-4" for="ask_other">Autre</label>
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" name="your_comments"></textarea>
+                        <label for="your_comments">Votre message</label>
+                    </div>
+                    <button type="submit" name="form_submit" class="btn button-primary mt-3 mb-5">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+        <!--####### FOOTER #################### -->
+        <!-- ################################## -->
+        <footer class="d-flex justify-content-center">
+            <div class="footer-content d-flex flex-column">
+                <address class="mb-4 mt-5">
+                    <p class="third-text-color mb-2 text-capitalize text-bold">Hestia énergies</p>
+                    <a class="img-link" href="">
+                        <img src="./img/hestia-logo.svg" alt="Hestia logo">
+                    </a>
+                    <p><a href="tel:+33477273237" class="mt-2 text-bold">04 77 27 32 37</a></p>
+                    <a href="mailto: contact@hestiaenergies.fr" class="primary-text-color">contact@hestiaenergies.fr</a>
+                    <p><a href="https://www.google.com/maps/place/28+Rue+Ren%C3%A9+Cassin,+42110+Feurs/@45.7431225,4.2333828,17z/data=!3m1!4b1!4m5!3m4!1s0x47f446d12e01f553:0xc9908ad1844ee804!8m2!3d45.7431225!4d4.235211"
+                            target="_blank">28 rue René Cassin, 42210 FEURS</a></p>
+                    <p><a href="https://www.google.com/maps/search/11+route+de+Courtines,+69850+DUERNE/@45.6769899,4.4926995,13z/data=!3m1!4b1"
+                            target="_blank">11 route des Courtines, 69850 DUERNE</a></p>
+                </address>
+                <div class="menu-footer d-flex flex-column">
+                    <a class="secondary-text-color" href="">À propos</a>
+                    <a class="secondary-text-color" href="">Nous contacter</a>
+                    <a class="secondary-text-color" href="">Entretien</a>
+                    <a class="secondary-text-color" href="">Dépannage</a>
+                    <a class="secondary-text-color" href="">Remplacement</a>
+                    <a class="secondary-text-color" href="">Actualités</a>
+                    <a class="primary-text-color" href="">Mentions légales</a>
+                </div>
+            </div>
+        </footer>
+        <script src="bootstrap/bootstrap.js"></script>
+    </div>
+</body>
+
+</html>

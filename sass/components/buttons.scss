@@ -1,5 +1,16 @@
-//BOUTONS PRIMARY
-// ###############
+// btn
+.btn:hover {
+    transition: 0.8s;
+}
+.btn {
+    padding: 0.7rem 1.2rem;
+}
+// delete bootstrap style
+.btn:focus {
+    box-shadow: none;
+}
+
+// button primary
 .button-outline-primary, .button-primary:hover {
     border: 1px solid $color-primary;
     color: $color-primary;
@@ -11,8 +22,7 @@
     border: none;
 }
 
-//BOUTONS THIRD
-// #############
+// button third
 .button-third {
     background-color: $color-third;
     color: white;
@@ -22,3 +32,53 @@
     background-color: transparent;
     color: $color-third;
 }
+
+// button secondary
+.button-secondary, .button-outline-secondary:hover {
+    background-color: $color-secondary;
+    color: white;
+    border: none;
+}
+.button-secondary:hover, .button-outline-secondary {
+    background-color: transparent;
+    border: 1px solid $color-secondary;
+    color: $color-secondary;
+}
+
+// button fourth
+.button-fourth, .button-outline-fourth:hover {
+    background-color: $color-fourth;
+    color: white;
+    border: none;
+}
+.button-fourth:hover, .button-outline-fourth {
+    background-color: transparent;
+    border: 1px solid $color-fourth;
+    color: $color-fourth;
+}
+
+// button white
+.btn-outline-light:hover {
+    background-color: rgba(248, 248, 248, 0.5);
+    color: black;
+    border: none;
+}
+.button-white {
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+// button dark
+.button-outline-dark {
+    color: black;
+    border: 1px solid $color-dark;
+    background-color: transparent;
+}
+.button-outline-dark:hover {
+    background-color: white;
+    border: none;
+}
+
+

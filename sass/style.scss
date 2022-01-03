@@ -3,13 +3,16 @@
 @import "./bases/layout.scss";
 @import "./bases/typography.scss";
 @import "./components/buttons.scss";
-@import "./parts/home/header.scss";
-@import "./parts/home/footer.scss";
-@import "./parts/home/carousel.scss";
-@import "./parts/home/slogan.scss";
-@import "./parts/home/services.scss";
-@import "./parts/home/actualite.scss";
+@import "./parts/header.scss";
+@import "./parts/footer.scss";
+@import "./parts/carousel.scss";
+@import "./parts/slogan.scss";
+@import "./parts/services.scss";
+@import "./parts/contact.scss";
+@import "./parts/actualite.scss";
 @import "./parts/page/title.scss";
+@import "./parts/page/body.scss";
+@import "./components/form.scss";
 
 @import "./bootstrap/bootstrap.css";
 

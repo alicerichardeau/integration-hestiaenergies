@@ -1,14 +1,27 @@
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     li {
         list-style-type: none;
     }
+    @media screen and (min-width: 1280px)
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .bloc-page {
+            box-shadow: 0 10px 35px 0 rgb(0 0 0 / 18%);
+            width: 1280px;
+        }
+    }
 }
+
 .titles {
     margin-top: 2rem;
 }
 .subtitles, .titles {
     margin-bottom: 2rem;
 }
+

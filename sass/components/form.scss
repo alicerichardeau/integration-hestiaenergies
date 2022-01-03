@@ -1,0 +1,14 @@
+.section-form {
+    form {
+        max-width: 500px;
+        textarea {
+            min-height: 300px;
+        }
+    } 
+}
+// delete bootstrap blue shadow
+form {
+    input:focus {
+        box-shadow: none;
+    }
+}

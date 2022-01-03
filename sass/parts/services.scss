@@ -1,12 +1,20 @@
 .section-services {
-// BLOCK DE CARTES
+// bloc card
     .container-fluid {
-        background-color: $color-grey-light;
-    // CARTES
+    // cards
         .service-card {
-            width: 300px;
+            margin-bottom: 5rem;
+            width: 320px;
             background-color: white;
+            box-shadow: $box-shadow;
+            border-radius: 3px;
+            img {
+                border-radius: 3px 0 0 3px;
+            }
             .card-content {
+                h5 {
+                    font-weight: 600;
+                }
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -14,29 +22,40 @@
                 ul {
                     padding: 1rem;
                     li, a {
-                        font-size: 0.7rem;
+                        font-size: 0.8rem;
                     }
                     span {
                         width: 3px;
                         margin-right: 0.2rem;
                     }
                 }
+                .btn {
+                    margin-bottom: 1.2rem;
+                }
             }
          }
     }
-// MEDIA QUERIES
+
+// media queries
 // ##############
+@media screen and (min-width: 600px) {
+    .service-card:hover {
+        transform: scale(1.1);
+    }
+}
 @media screen and (min-width: 900px) {
 
     .service-card {
-        .photo {
-            height: 200px;
-        }
+        
         flex-direction: row!important;
         width: 650px!important;
         padding-bottom: 0!important;
         .card-content {
-            width: 300px;
+            width: 400px;
+            .btn {
+                margin-bottom: 2rem!important;
+            }
+
         }
     }
 

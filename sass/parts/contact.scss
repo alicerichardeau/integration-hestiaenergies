@@ -1,0 +1,20 @@
+.section-contact {
+    p {
+        font-size: 0.8rem;
+        border-radius: 20px;
+        background-image: linear-gradient(90deg, $color-primary, $color-secondary);
+        max-width: 470px;
+    }
+    p:hover {
+        background-image: linear-gradient(90deg, $color-secondary, $color-primary);
+    }
+    .btn {
+        padding: 0.7rem;
+    }
+    
+    @media screen and (min-width: 390px) {
+        p {
+            font-size: 1rem;
+        }
+    }
+}
