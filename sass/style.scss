@@ -1,3 +1,4 @@
+
 @import "./bases/variables.scss";
 @import "./bases/colors.scss";
 @import "./bases/layout.scss";
@@ -14,5 +15,6 @@
 @import "./parts/page/body.scss";
 @import "./components/form.scss";
 
-@import "./bootstrap/bootstrap.css";
+@import "../bootstrap/bootstrap.css";
+
 
