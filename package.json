@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alicerichardeau/integration-hestia.git"
+    "url": "https://alicerichardeau.github.io/integration-hestiaenergies/"
   },
   "keywords": [
     "integration",
@@ -22,7 +22,7 @@
   "author": "Alice Richardeau",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alicerichardeau/integration-hestia/issues"
+    "url": "https://alicerichardeau.github.io/integration-hestiaenergies/"
   },
-  "homepage": "https://github.com/alicerichardeau/integration-hestia#readme"
+  "homepage": "https://alicerichardeau.github.io/integration-hestiaenergies/"
 }
