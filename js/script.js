@@ -5,4 +5,7 @@ const navLinks = document.querySelectorAll('.navbar-nav a').forEach(link => {
     if(link.href.includes(`${activePage}`)){
         link.classList.add('active');
     }
+    if(activePage == '/') {
+        link.classList.remove('active');
+    }
 })
