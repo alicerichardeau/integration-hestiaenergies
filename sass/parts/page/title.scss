@@ -1,10 +1,29 @@
+
+ // troubleshooting section
+ .troubleshooting {
+    background-image: url('./img/depannage-plombier-outil.jpg');
+}
+
+// replacement section
+.replacement {
+    background-image: url('./img/plombier-depannage-chaudiere.jpg');
+}
+
+// maitenance section
+.maintenance {
+    background-image: url('../../../img/contrat-entretien-chauffage-chaudiere-climatisation.jpg');
+    opacity: 0.8;
+}
+
+// single section
+.actualities {
+    background-image: url('./img/prime-etat-renovation-chauffage.png');
+}
+
 .section-title {
-    background-size: cover!important;
-    background-repeat: no-repeat!important;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
-    h3 {
-        font-size: 1.2rem;
-    }
     @media screen and (min-width: 500px) {
         height: 400px;
     }
@@ -19,24 +38,4 @@
             font-size: 1.8rem;
         }
     }
-}
-
-// troubleshooting section
-.troubleshooting {
-    background-image: url('./img/depannage-plombier-outil.jpg');
-}
-
-// replacement section
-.replacement {
-    background-image: url('./img/plombier-depannage-chaudiere.jpg');
-}
-
-// maitenance section
-.maintenance {
-    background-image: url('./img/femme-telephone-plombier-chauffagiste.jpg');
-}
-
-// single section
-.actualities {
-    background-image: url('./img/prime-etat-renovation-chauffage.png');
 }

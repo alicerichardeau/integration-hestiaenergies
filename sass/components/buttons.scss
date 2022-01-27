@@ -3,7 +3,7 @@
     transition: 0.8s;
 }
 .btn {
-    padding: 0.7rem 1.2rem;
+    padding: 0.5rem 1rem;
 }
 // delete bootstrap style
 .btn:focus {
@@ -34,14 +34,14 @@
 }
 
 // button secondary
-.button-secondary, .button-outline-secondary:hover {
-    background-color: $color-secondary;
+.button-third, .button-outline-third:hover {
+    background-color: $color-third;
     color: white;
     border: none;
 }
-.button-secondary:hover, .button-outline-secondary {
+.button-third:hover, .button-outline-third {
     background-color: transparent;
-    border: 1px solid $color-secondary;
+    border: 1px solid $color-third;
     color: $color-secondary;
 }
 

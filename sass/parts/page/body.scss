@@ -9,28 +9,15 @@ ul {
 // ###############
 .intro-troubleshooting {
     .container {
-        .slide-in {
-          @media screen and (min-width: 500px) {
-            font-size: 3rem;
-        }
-            animation-duration: 1s;
-            animation-name: slidein;
-            font-size: 2rem;
-          }     
-          @keyframes slidein {
-            from {
-              margin-left: 100%;
-              width: 300%;
-            }      
-            to {
-              margin-left: 0%;
-              width: 100%;
-            }
-          }
+      h2{
+        @media screen and (min-width: 500px) {
+          font-size: 3rem;
+        
+      }
         img {
           border-radius: 7px;
           box-shadow: $box-shadow;
-          width: 300px;
+          width: 200px;
         }
         // phone number
         a {
@@ -148,4 +135,5 @@ ul {
             }
         }
     }
+}
 }
