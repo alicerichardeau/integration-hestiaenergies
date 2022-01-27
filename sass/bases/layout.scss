@@ -21,7 +21,7 @@ body {
 .titles {
     margin-top: 2rem;
 }
-.subtitles, .titles {
+.titles {
     margin-bottom: 2rem;
 }
 
@@ -58,7 +58,6 @@ body {
    
         animation-duration: 4s;
         animation-name: slidein;
-        font-size: 2rem;
       }     
       @keyframes slidein {
         from {

@@ -21,7 +21,7 @@ ul {
         }
         // phone number
         a {
-            font-size: 3rem;
+            font-size: 4rem;
         }
         a:hover {
           transform: scale(1.1);
@@ -30,7 +30,7 @@ ul {
     }
 }
 
-// page remplacement
+// page replacement
 // ###################
 .equipment-content {
   .img-plumber {
@@ -46,8 +46,8 @@ ul {
   }
 }
 
-// article aides energetiques
-// ##########################
+// single state aids
+// #################
 .intro-state-aids {
     img {
         width: 200px;
@@ -99,29 +99,6 @@ ul {
   position: relative;
 }
 
-  // CLASS SLIDE IN
-  // ################
-    .slide-in {
-        animation-duration: 1s;
-        animation-name: slidein;
-        font-size: 1.2rem;
-        @media screen and (min-width: 400px) {
-          font-size: 1.5rem;
-        }
-        @media screen and (min-width: 700px) {
-          font-size: 2rem;
-        }
-      }     
-      @keyframes slidein {
-        from {
-          margin-left: 100%;
-          width: 300%;
-        }      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      }
 // CLASS PAGE CONTENT
 // #######################
 .page-content {
