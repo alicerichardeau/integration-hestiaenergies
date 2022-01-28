@@ -15,11 +15,19 @@ body {
                 // balise nav
                 .navbar {
                     width: 100%;
+                    padding-top: 0;
+                    padding-bottom: 0;
+
+                    #navbarNav {
+                        .navbar-nav {
+                            padding: 1rem 0;
+                            align-items: center;
+                        }
+                    }
+                    // burger menu
                     .navbar-toggler {
                         padding: 0;
                     }
-                    padding-top: 0;
-                    padding-bottom: 0;
                     button:focus {
                         box-shadow: none;
                     }

@@ -5,14 +5,13 @@ ul {
   }
 }
 
-// page depannage
-// ###############
+// troubleshooting page
 .intro-troubleshooting {
+
     .container {
       h2{
         @media screen and (min-width: 500px) {
-          font-size: 3rem;
-        
+          font-size: 3rem; 
       }
         img {
           border-radius: 7px;
@@ -31,7 +30,6 @@ ul {
 }
 
 // page replacement
-// ###################
 .equipment-content {
   .img-plumber {
     border-radius: 7px;
@@ -47,14 +45,16 @@ ul {
 }
 
 // single state aids
-// #################
 .intro-state-aids {
     img {
         width: 200px;
     }   
 }
-.content-state-aids .container {
+.state-aids .container {
   max-width: 980px;
+  p {
+    padding: 1rem;
+  }
 }
 
 // ##########################################
@@ -68,8 +68,9 @@ ul {
   height: 200px;
   opacity: 0.8;
 }
-// CLASS ENTRETIEN SPAN
-// ####################
+
+
+// entretien span
 .entretien-span {
   position: absolute;
   right: 0;   
@@ -80,7 +81,6 @@ ul {
   font-size: 1.2rem!important;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: $box-shadow;
-  // border-radius: 25px;
   z-index: 1;
   margin-top: 2rem;
   -webkit-filter: grayscale(0) blur(0px);
@@ -93,14 +93,8 @@ ul {
   transform: rotate(360deg);
 }
 
-// CLASS POSITION RELATIVE 
-// ########################
-.postion-relative {
-  position: relative;
-}
 
-// CLASS PAGE CONTENT
-// #######################
+// page content
 .page-content {
     .container {
         ul {

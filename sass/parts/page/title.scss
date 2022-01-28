@@ -11,23 +11,27 @@
 
 // maitenance section
 .maintenance {
-    background-image: url('../../../img/contrat-entretien-chauffage-chaudiere-climatisation.jpg');
+    background-image: url('./img/contrat-entretien-chauffage-chaudiere-climatisation.jpg');
     opacity: 0.8;
 }
 
 // single section
 .actualities {
-    background-image: url('./img/prime-etat-renovation-chauffage.png');
+    background-image: url('../../../img/contrat-entretien-chauffage-chaudiere-climatisation.jpg');
 }
 
 .section-title {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
     @media screen and (min-width: 500px) {
-        height: 400px;
+        height: 300px;
+        h1 {
+            font-size: 2rem;
+        }
     }
     @media screen and (min-width: 800px) {
+        height: 400px;
         h1 {
             font-size: 3rem;
             text-transform: uppercase;
