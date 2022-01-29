@@ -37,9 +37,9 @@
             text-transform: uppercase;
         }
     }
-    // @media screen and (max-width: 340px) {
-    //     h1 {
-    //         font-size: 1.8rem;
-    //     }
-    // }
+    @media screen and (max-width: 340px) {
+        h1 {
+            font-size: 1.8rem;
+        }
+    }
 }
