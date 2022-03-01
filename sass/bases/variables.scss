@@ -1,7 +1,5 @@
 
-// COLORS
-// #######
-
+// colors
 $color-primary: #ffb84e;
 $color-secondary: #e54304;
 $color-third: #f2860d;
@@ -11,4 +9,6 @@ $color-grey-light: #f6f6f6;
 $color-grey-dark: #616161;
 $color-dark: rgb(66, 62, 62);
 $color-linear-primary-secondary: linear-gradient(90deg, $color-primary, $color-secondary);
+
+// shadows
 $box-shadow: 0 10px 35px 0 rgb(0 0 0 / 18%);

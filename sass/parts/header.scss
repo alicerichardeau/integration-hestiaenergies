@@ -36,6 +36,14 @@ body {
                             margin: 0 0.5rem;
                         }
                     } 
+
+                    .navbar-nav a {
+                        color: $color-dark;
+                    }
+
+                    .navbar-nav a:hover {
+                        color: $color-grey-dark;
+                    }
                     // active page
                     .navbar-nav .active {
                         color: $color-third;
